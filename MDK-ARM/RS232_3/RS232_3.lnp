@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"rs232_3\main.o"
+"rs232_3\stm32f1xx_it.o"
+"rs232_3\stm32f1xx_hal_msp.o"
+"rs232_3\startup_stm32f103xe.o"
+"rs232_3\stm32f1xx_hal_cortex.o"
+"rs232_3\stm32f1xx_hal_flash_ex.o"
+"rs232_3\stm32f1xx_hal_pwr.o"
+"rs232_3\stm32f1xx_hal_dma.o"
+"rs232_3\stm32f1xx_hal_rcc_ex.o"
+"rs232_3\stm32f1xx_hal_tim.o"
+"rs232_3\stm32f1xx_hal_flash.o"
+"rs232_3\stm32f1xx_hal_rcc.o"
+"rs232_3\stm32f1xx_hal_gpio.o"
+"rs232_3\stm32f1xx_hal_uart.o"
+"rs232_3\stm32f1xx_hal.o"
+"rs232_3\stm32f1xx_hal_tim_ex.o"
+"rs232_3\stm32f1xx_hal_i2c.o"
+"rs232_3\stm32f1xx_hal_rtc_ex.o"
+"rs232_3\stm32f1xx_hal_rtc.o"
+"rs232_3\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "RS232_3\RS232_3.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RS232_3.map" -o RS232_3\RS232_3.axf
